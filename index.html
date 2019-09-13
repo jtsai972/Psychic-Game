@@ -26,7 +26,24 @@
 
     <!-- Article -->
     <article>
-        <p>Guess what letter I'm thinking of?</p>
+        <p>Guess what letter I'm thinking of</p>
+
+        <form action="">
+            <label for="letter">Letter</label>
+            <input type="text">
+            <button>Submit</button>
+        </form>
+
+        <aside class="scoreboard">
+            <h2>Score</h2>
+            <p>Wins: <span id="wins"></span></p>
+            <p>Losses: <span id="losses"></span></p>
+            <p>Guesses Left: <span id="guessCount"></span></p>
+        </aside>
+
+        <section class="guessHistory">
+            <h2>Your Guesses so far:</h2>
+        </section>
     </article>
 
     <!-- Footer -->
