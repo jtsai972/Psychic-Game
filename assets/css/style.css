@@ -56,9 +56,8 @@ aside {
     border: 1px solid #ddd;
     background: #ddd;
     padding: 1em 2em;
-    padding-top: 0;
+        padding-top: 0;
     width: 33%;
-
     float: right;
 }
 
