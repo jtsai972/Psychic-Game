@@ -28,9 +28,9 @@ var check = function() {
     if (letter== guess) {
         //add a win
         countWin++;
-
+        
         alert("Congratulations! You guessed correctly!") ;
-
+        
         //select a new letter
         reset();        
     }
